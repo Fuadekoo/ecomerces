@@ -27,3 +27,4 @@ Route::middleware([
 });
 Route::get('/redirect',[homecontroller::class,'redirect']);
 Route::get('/view_catagory',[admincontroller::class,'view_catagory']);
+Route::post('/add_catagory',[admincontroller::class,'add_catagory']);
